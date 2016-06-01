@@ -38,18 +38,18 @@ var BEER_FACTS = [
     "He was a wise man who invented beer. Plato.",
     "Beauty is in the eye of the beer holder. Kinky Friedman.",
     "Milk is for babies. When you grow up you have to drink beer. Arnold Schwarzenegger.",
-    "TYes, sir. I'm a real Southern boy. I got a red neck, white socks, and Blue Ribbon beer. Billy Carter.",
+    "Yes, sir. I'm a real Southern boy. I got a red neck, white socks, and Blue Ribbon beer. Billy Carter.",
     "There's something sexy about a gut. Not a 400-pound beer gut, but a little paunch. I love that. Sandra Bullock.",
     "Not all chemicals are bad. Without chemicals such as hydrogen and oxygen, for example, there would be no way to make water, a vital ingredient in beer. Dave Barry.",
     "The head sticking to the side of your pint glass? That is referred to as lacing and is a sign of a clean glass and a good brew.",
     "Your tongue has about 10,000 taste buds, so put them to good work and try out a new beer!",
     "Not all waters are created equal: the origin and treatment of water have an impact on the finished beer, at both the molecular and sensory levels.",
     "At the present time, all-malt beers are predominantly brewed with two-row barley, which yields plumper kernels and grows well in cooler climates.",
-    "Kilning is the source of nearly all malt flavours in beer.",
-    "Hops must be boiled vigourously to extract their bitterness.",
+    "Kilning is the source of nearly all malt flavors in beer.",
+    "Hops must be boiled vigorously to extract their bitterness.",
     "Yeast is remarkably sensitive to temperature and can create completely different beers with only a small temperature variation in the brewing process.",
     "To achieve the ultimate draft pint, pour the beer directly into the bottom of a perfectly clean glass. Continue to pour, letting the foam rise and settle until the glass is full, effectively creating a dense and long lasting head on the pint.",
-    "When pairing food and beer, be aware that a hoppy bitter flavour emphasizes spicy dishes."
+    "When pairing food and beer, be aware that a hoppy bitter flavor emphasizes spicy dishes."
 ];
 /**
  * The AlexaSkill prototype and helper functions
@@ -119,7 +119,7 @@ function handleNewFactRequest(response) {
     var fact = BEER_FACTS[factIndex];
 
     // Create speech output
-    var speechOutput = "Here's your Beer fact: " + fact;
+    var speechOutput = "Here's your Beer: " + fact;
 
     response.tellWithCard(speechOutput, "BeerFacts", speechOutput);
 }
